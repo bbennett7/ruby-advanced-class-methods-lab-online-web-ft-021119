@@ -17,13 +17,13 @@ class Song
   def self.new_by_name(song_name)
     song = Song.new
     song.name = song_name 
-    song 
+    song
   end 
   
   def self.create_by_name(song_name)
     song = Song.new 
     song.name = song_name 
-    self.all << song 
+    self.all << song
     song 
   end 
   
